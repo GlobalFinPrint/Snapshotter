@@ -2,7 +2,7 @@ echo off
 setlocal enabledelayedexpansion
 
 set /p src="Enter path that contains the videos to snapshot: "
-set /p subfldr_flg="Does this path have subfolders with more videos to snapshot? (y/n) "
+set /p subfldr_flg="Does this path have subfolders with more videos to snapshot? (y/n): "
 set /p dst="Enter path to hold the snapshots: "
 set /p snpsht_time="Enter a time to take the snapshot (HH:MM:SS): "
 
