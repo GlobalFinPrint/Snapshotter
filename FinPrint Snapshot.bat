@@ -45,6 +45,5 @@ PAUSE
             set parent_fldr=%%~nxj
 	)
 
-        set name=%~n1
         ffmpeg -ss !snpsht_time! -i "%~1" -vframes 1 -q:v 2 "%dst%/!parent_fldr!.jpg"
 EXIT /B 0
